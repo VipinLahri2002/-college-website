@@ -1,0 +1,1310 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border box;
+
+}
+
+body {
+    background-color: rgb(216, 209, 197);
+    box-sizing: border-box;
+}
+
+.mirzapur-admission{
+    background-color: red;
+    width: 430px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    rotate: 270deg;
+
+ margin-left: 810px;
+ margin-top: 70px;
+   /* float: right; */
+border-radius: 10px;
+}
+.mirzapur-admission a{
+    color: white;
+    text-decoration: none;
+}
+.navbar {
+    height: 140px;
+    color: white;
+    background-color: rgb(72, 72, 197);
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+    border-top-left-radius: 12px;
+
+
+
+
+
+}
+
+.border {}
+
+.nav-logo {
+    height: 110px;
+    width: 110px;
+}
+
+.logo {
+    background-image: url("COLLEGE LOGO.png");
+    height: 110px;
+    width: 110px;
+    background-size: cover;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.name {
+    font-size: 2.3rem;
+    /* margin-right:140px; */
+    margin-left: 11px;
+}
+
+.name1 {
+    font-size: 2.3rem;
+    /* margin-right: 120px; */
+    margin-left: 11px;
+
+
+}
+
+.name2 {
+    font-size: 14px;
+    margin-left: 11px;
+
+
+}
+
+.name3 {
+    font-size: 1.2rem;
+    margin-right: 7px;
+    margin-left: 75px;
+
+}
+.name3 a{
+    color: white;
+    text-decoration: none;
+}
+
+.name4 {
+    font-size: 1.2rem;
+    margin-left: 99px;
+    margin-top: 14px;
+}
+.name4 a{
+    color: white;
+    text-decoration: none;
+}
+
+.panel {
+     height: auto; 
+    display: flex; 
+     color: black; 
+     font-size: 13px;   
+    align-items: center; 
+     justify-content: space-evenly; 
+     margin-left: 4px;   
+      /* list-style-type:none;  */
+
+
+}
+
+.panel ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.panel ul li {
+    padding: 5.5px;
+
+
+}
+
+.panel ul li a {
+    text-decoration: none;
+    color: black
+}
+
+.border {
+    /* border: 2px solid transparent; */
+}
+
+.border:hover {
+    border: 2px;
+    border-color: white;
+    border-bottom: 6px;
+    border-top: transparent;
+    border-style: groove;
+}
+
+.college-menu {
+    display: none;
+    /* padding-left: 10px; */
+
+
+
+}
+
+.college-menu ul li a {
+    color: white;
+}
+
+.panel ul li:hover .college-menu {
+    display: block;
+    position: absolute;
+    background-color: rgb(72, 72, 197);
+    margin-top: 8px;
+    margin-left: -21px;
+    margin-right: 90px;
+
+}
+
+.panel ul li:hover .college-menu ul {
+    display: block;
+    text-align: center;
+
+}
+
+.panel ul li:hover .college-menu ul li {
+    border: 1px solid white;
+    /* background-color: yellow; */
+}
+
+.college-menu ul li:hover {
+    background-color: yellow;
+}
+
+.college-menu ul li:hover a {
+    color: black;
+}
+
+.college-menu ul li a:hover {
+    color: black;
+}
+
+/* Creating for sub menu */
+.fa-angle-right {
+    /* display: none; */
+    float: right;
+}
+
+.administration-menu {
+    display: none;
+    /* font-size: 9px; */
+
+}
+
+
+.hover-me:hover .administration-menu {
+    position: absolute;
+    display: block;
+    margin-top: -65px;
+    margin-left: 99px;
+    margin-right: -150px;
+    background-color: rgb(72, 72, 197);
+}
+.administration-menu ul li a
+{
+color: white;
+}
+.administration-menu ul li.hover a{
+    color:black;
+}
+
+/* creeating subclass of clubs */
+.club-menu {
+    display: none;
+}
+
+.hover-me:hover .club-menu {
+    display: block;
+    position: absolute;
+    background-color: rgb(72, 72, 197);
+    margin-top: -39px;
+    margin-right: -150px;
+    margin-left: 114px;
+}
+
+.academic-menu {
+    display: none;
+}
+
+.academic-menu ul li a {
+    color: white;
+}
+
+.panel ul li:hover .academic-menu {
+    display: block;
+    position: absolute;
+    background-color: rgb(72, 72, 197);
+    margin-top: 8px;
+    margin-left: -25px;
+}
+
+.panel ul li:hover .academic-menu ul {
+    display: block;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.panel ul li:hover .academic-menu ul li {
+    border: 1px solid white;
+
+}
+
+.academic-menu ul li:hover {
+    background-color: yellow;
+    /* color: black; */
+}
+
+.academic-menu ul li:hover a {
+    color: black;
+}
+
+.depart-menu {
+    display: none;
+}
+
+.depart-menu ul li a {
+    color: white;
+}
+
+.panel ul li:hover .depart-menu {
+    display: block;
+    position: absolute;
+    background-color: rgb(72, 72, 197);
+    margin-top: 8px;
+    margin-left: -50px;
+    margin-right: 700px
+}
+
+.panel ul li:hover .depart-menu ul {
+    display: block;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
+.panel ul li:hover .depart-menu ul li {
+    border: 1px solid white;
+
+}
+
+.depart-menu ul li:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.depart-menu ul li:hover a {
+    color: black;
+}
+
+.cell-menu {
+    display: none;
+}
+
+.panel ul li:hover .cell-menu {
+    display: block;
+    position: absolute;
+    background-color: rgb(72, 72, 197);
+    margin-top: 8px;
+    margin-left: -34px;
+    margin-right: 520px;
+}
+
+.panel ul li:hover .cell-menu ul {
+    display: block;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.panel ul li:hover .cell-menu ul li {
+    border: 1px solid white;
+
+}
+
+.cell-menu ul li:hover {
+    background-color: yellow;
+    font-color: black;
+}
+
+.cell-menu ul li a {
+    color: white;
+}
+
+.cell-menu ul li:hover a {
+    color: black;
+}
+
+.life-menu {
+    display: none;
+}
+
+.panel ul li:hover .life-menu {
+    display: block;
+    position: absolute;
+    background-color: rgb(72, 72, 197);
+    margin-top: 8px;
+    margin-left: -25px;
+    margin-right: 240px;
+}
+
+.panel ul li:hover .life-menu ul {
+    display: block;
+    text-align: center;
+    border: 1px solid white;
+
+}
+
+.panel ul li:hover .life-menu ul li {
+    border: 1px solid white;
+
+
+}
+
+.life-menu ul li:hover {
+    background-color: yellow;
+    color: white;
+    text-align: center;
+}
+
+.life-menu ul li a {
+    color: white;
+}
+
+.life-menu ul li:hover a {
+    color: black;
+}
+
+.facilities-menu {
+    display: none;
+}
+
+.panel ul li:hover .facilities-menu {
+    display: block;
+    position: absolute;
+    background-color: rgb(72, 72, 197);
+    margin-top: 8px;
+    margin-left: -20px;
+}
+
+.panel ul li:hover .facilities-menu ul {
+    display: block;
+    text-align: center;
+    border: 1px solid white;
+
+}
+
+.panel ul li:hover .facilities-menu ul li {
+    border: 1px solid white;
+
+
+}
+
+.facilities-menu ul li:hover {
+    background-color: yellow;
+    font-color: black;
+    text-align: center;
+}
+
+.facilities-menu ul li a {
+    color: white;
+}
+
+.facilities-menu ul li:hover a {
+    color: black;
+}
+
+.photo-section {
+    display: flex;
+    /* height: 400px; */
+    /* margin-bottom: 122px; */
+    margin-left: 4px;
+}
+
+.photo-section1 {
+    background-image: url("college\ image.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* height: 500px; */
+    width: 100%;
+
+}
+
+.box {
+    background-color: blue;
+    width: 30%;
+
+}
+
+.box ul {
+    list-style: none;
+
+}
+
+.box ul li {
+    border: 1px solid white;
+    padding: 8px 0px 8px 5px;
+}
+
+.box ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.box ul li a:hover {
+    color: yellow;
+}
+
+.box ul li:hover a {
+    color: yellow
+}
+
+.run {
+    height: 30px;
+    /* width: 100%; */
+    font-size: 70px;
+    /* color:black; */
+    /* display: flexblock; */
+/* color: white; */
+
+}
+
+.high {
+    /* font-size: 40px; */
+    display: flex;
+    margin-left: 4px;
+    background-color: grey;
+    height: 30px;
+    width: 92.4%;
+    color: rgb(197, 10, 10);
+    font-size: 28px;
+    padding-left: 18px;
+    /* align-items: center; */
+    text-align: center;
+
+
+
+}
+.high p
+{
+    margin-right: 14px;
+}
+
+.about1 {
+    height: 550px;
+    width: 100%;
+    /* background-color:black; */
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.about {
+    background-color: rgb(58, 58, 69);
+    height: 50px;
+    width: 60%;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    display: block;
+
+}
+
+.G {
+    height: 500px;
+    width: 30%;
+    /* background-color: black;  */
+    /* margin-left: 20px; */
+    display: block;
+    margin-left: 11px;
+    /* align-items: center;
+    justify-content: space-evenly; */
+}
+
+.g1 {
+    background-color: rgb(58, 58, 69);
+    height: 100px;
+    /* width: 40%; */
+    margin-left: 20px;
+    text-align: center;
+
+    color: white;
+    border-radius: 7px;
+    display: flex;
+
+
+
+}
+
+.andi {
+    background-image: url("Anandi..png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 90px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    display: flex;
+
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.andnam {
+    padding-top: 15px;
+    font-size: 14px;
+
+
+}
+
+.andnam1 {
+    padding-top: 15px;
+    font-size: 11px;
+    text-decoration: none;
+
+}
+
+.g2 {
+
+    background-color: rgb(58, 58, 69);
+    height: 100px;
+    /* width: 40%; */
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    border-radius: 7px;
+    display: flex;
+
+
+
+}
+
+.yogi {
+    background-image: url("yogi..png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 90px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    display: flex;
+
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.yognam {
+    padding-top: 19px;
+    font-size: 14px;
+    /* text-decoration: underline; */
+
+}
+
+.yognam1 {
+    padding:10px;
+    font-size: 12px;
+    text-decoration: none;
+
+
+}
+
+.g3 {
+
+    background-color: rgb(58, 58, 69);
+    height: 100px;
+    /* width: 40%; */
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 7px;
+    display: flex;
+
+
+
+}
+
+.ashi {
+    background-image: url("ashis.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 90px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ashinam {
+    padding-top: 19px;
+    font-size: 15px;
+    /* text-decoration: underline; */
+
+}
+
+.ashinam1 {
+    padding: 10px;
+    font-size: 11px;
+    text-decoration: none;
+
+}
+
+.g4 {
+
+    background-color: rgb(58, 58, 69);
+    height: 100px;
+    /* width: 40%; */
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 7px;
+    display: flex;
+
+
+
+}
+
+.geet {
+    background-image: url("Director.d10dc77c156c7a12088c.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 90px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.geetnam {
+    padding-top: 14px;
+    font-size: 15px;
+    /* text-decoration: underline; */
+
+}
+
+.geetnam1 {
+    padding: 8px;
+    font-size: 11px;
+    text-decoration: none;
+
+}
+
+.video {
+    background-color: black;
+    height: 264px;
+    width: 380px;
+    margin-top: 30px;
+    margin-left: 85px;
+}
+
+.text {
+    height: 100px;
+    padding: 12px;
+    width: 100%;
+    /* background-color: red; */
+    font-size: 16px;
+    text-align: justify;
+    color: black;
+    line-height: 20px;
+}
+
+.table {
+    height: 600px;
+    /* background-color: black; */
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.table1 {
+    height: 450px;
+    width: 300px;
+    background-color: rgb(226, 217, 199);
+    margin-left: 35px;
+    margin-top: 50px;
+    overflow-y: auto;
+    /* padding-top: -20px; */
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 8px;
+    text-align: start;
+    /* margin-top: 50px; */
+    /* align-tracks: start; */
+}
+
+.news1 li {
+    margin-bottom: 5%;
+}
+
+.news1 li a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.tab11 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 30px;
+    border-bottom: 1px solid rgb(170, 169, 166);
+    margin-right: 4px;
+    /* margin-bottom: 7px; */
+    margin-left: 4px;
+}
+
+.viewall {
+    position: sticky;
+    height: 14px;
+    width: 49px;
+    top: 424px;
+    left: 215px;
+    background-color: black;
+    align-items: center;
+    padding: 3px 8px 7px;
+    color: white;
+    border-radius: 6px;
+
+}
+
+.viewall a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.viewall a:hover {
+    color: none;
+    text-decoration: none;
+}
+
+
+.icon {
+    margin-right: 10px;
+
+}
+
+.table2 {
+    height: 450px;
+    width: 300px;
+    background-color: rgb(226, 217, 199);
+    margin-top: 50px;
+    /* padding-top: 20px; */
+    border-radius: 15px;
+    overflow-y: auto;
+
+
+}
+
+
+.table3 {
+    height: 450px;
+    width: 300px;
+    background-color: rgb(226, 217, 199);
+    /* padding-top: 20px; */
+    margin-right: 27px;
+    margin-top: 50px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    overflow-y: auto;
+    padding-left: 8px;
+    /* text-align: center; */
+
+}
+
+.ourachievers {
+    height: 50px;
+    /* margin-bottom: 10px; */
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    /* align-items: center; */
+    /* padding-top: 8px; */
+    margin: 4px 100px 60px 100px;
+    background-color: rgb(58, 58, 69);
+    border-radius: 8px;
+}
+
+.achievers {
+    height: 350px;
+    width: 90%;
+    /* background-color: red; */
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.achievers1 {
+    height: 330px;
+    width: 25%;
+    /* background-color: #5b5941; */
+
+
+}
+
+.achievers-image1 {
+    background-image: url("achievers3.jpg");
+    height: 330px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.achievers2 {
+    height: 330px;
+    width: 25%;
+    /* background-color: #dfddc3; */
+
+}
+
+.achievers-image2 {
+    background-image: url("achievers2.jpg");
+    height: 330px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.achievers3 {
+    height: 330px;
+    width: 25%;
+    /* background-color: #e7d806; */
+
+}
+
+.achievers-image3 {
+    background-image: url("achievers1.jpg");
+    height: 330px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+
+
+
+.branchhead {
+    background-color: rgb(58, 58, 69);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 60px;
+    height: 60px;
+    margin-left: 4px;
+
+
+}
+
+.branch {
+    height: 600px;
+    width: 100%;
+
+    margin-left: 4px;
+    display: flex;
+    /* border: 3px solid black; */
+    background-color: rgb(58, 58, 69);
+
+    /* text-decoration: none; */
+
+    /* color: white; */
+    margin-bottom: 40px;
+}
+
+.bimage {
+    height: 600px;
+    width: 60%;
+    background-image: url("fgf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 550px 1100px; */
+    /* width: 600px; */
+
+}
+
+
+
+.about-cse {
+    height: 600px;
+    width: 50%;
+    align-items: center;
+
+    /* background-color: red; */
+    /* justify-content: space-around; */
+    /* padding: 30px 65px 30px; */
+    /* text-align: center; */
+
+}
+
+.cse-block {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(58, 58, 69);
+    border-bottom: 2px solid white;
+}
+
+.cse-image {
+    height: 200px;
+    width: 200px;
+    /* align-items: center; */
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    background-image: url("Computer_science.e600d1c1eae338c42ba6.png");
+}
+
+.cse-image-text {
+    border-left: 7px solid #e7d806;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 16px;
+    height: 90px;
+    align-items: center;
+    padding-top: 6px;
+    padding-left: 6px;
+    text-align: justify;
+}
+
+.computer-text {
+    color: white;
+    width: 85%;
+    margin-left: 28px;
+    margin-right: 10px;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 9px;
+
+
+    /* justify-content: space-evenly; */
+}
+
+.cse a {
+    text-decoration: none;
+    color: white;
+
+
+
+}
+
+.cse a:hover {
+    color: yellow;
+    border-color: yellow;
+
+}
+
+.cse:hover a {
+    border: 2px solid yellow;
+    border-left: none;
+    border-right: none;
+}
+
+
+.electronics a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.electronics a:hover {
+    color: rgb(87, 232, 152);
+    border-color: yellow;
+}
+
+.electronics:hover a {
+    border: 2px solid yellow;
+    border-left: none;
+    border-right: none;
+}
+
+
+.electrical a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.electrical:hover a {
+    border: 2px solid yellow;
+    border-left: none;
+    border-right: none;
+}
+
+.electrical a:hover {
+    color: rgb(107, 133, 237);
+    border-color: yellow;
+}
+
+
+.applied a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.applied a:hover {
+    color: yellow;
+    border-color: yellow;
+}
+
+.applied:hover a {
+    border: 2px solid yellow;
+    border-left: none;
+    border-right: none;
+}
+
+.student {
+
+    height: 50px;
+    /* margin-bottom: 10px; */
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    align-items: center;
+    padding-top: 8px;
+    margin: 4px 100px 40px 100px;
+    background-color: rgb(58, 58, 69);
+    border-radius: 8px;
+}
+
+.student-says {
+    height: 400px;
+    width: 70%;
+    /* background-color: red; */
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    /* overflow-x:hidden; */
+
+}
+
+.student1 {
+    height: 330px;
+    width: 48%;
+    background-color: rgb(58, 58, 69);
+    display: block;
+    text-align: justify;
+    border-radius: 12px;
+
+}
+
+.student1-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.student1 img {
+    height: 100px;
+    width: 100px;
+    margin: 10px 100px 0px 0px;
+    border-radius: 50%;
+}
+
+.student1 img {
+    display: flex;
+}
+
+.shraddha-says {
+    margin: 30px 10px 0px 10px;
+    /* float: right; */
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+}
+
+
+.student2 {
+    height: 330px;
+    width: 48%;
+    background-color: rgb(58, 58, 69);
+    display: block;
+    text-align: justify;
+    border-radius: 12px;
+
+}
+
+.student2-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.student2 img {
+    height: 100px;
+    width: 100px;
+    margin: 10px 100px 0px 0px;
+    border-radius: 50%;
+}
+
+.student2 img {
+    display: flex;
+}
+
+.ayush-says {
+    margin: 30px 10px 0px 10px;
+    /* float: right; */
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+    width: fit-content;
+}
+
+.university-logo {
+    height: 150px;
+    width: 80%;
+    /* background-color: red; */
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aktu img {
+    height: 130px;
+    width: 130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.aicte img {
+    height: 130px;
+    width: 130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nptel img {
+    height: 130px;
+    width: 130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer1 {
+    height: 150px;
+    background-color: rgb(58, 58, 69);
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    border-bottom-left-radius: 15px;
+    margin-left: 4px;
+}
+
+.email {
+    background-image: url("COLLEGE LOGO.png");
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 135px;
+}
+
+.cname {
+    margin-left: 10px;
+}
+
+.touch {
+    width: 10%;
+}
+
+.touch1 {
+    text-decoration: underline;
+}
+
+.link {
+    flex-direction: column;
+    text-decoration: none;
+    width: 15%;
+}
+
+.link1 {
+    text-decoration: underline;
+    width: 50%;
+    margin-left: 40px;
+}
+
+.connect {
+    width: 23%;
+    margin-right: 55px;
+}
+
+.connect1 {
+    text-decoration: underline;
+}
+
+.f1 {
+    padding-top: 3px;
+    margin-left: 52px;
+}
+
+.f2 {
+    text-decoration: none;
+    padding-top: 21px;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.f3 {
+    padding-top: 21px;
+    text-align: left;
+    padding-left: 40px;
+    font-size: 14px;
+}
+
+.f4 {
+    padding-top: 31px;
+
+}
+
+.face {
+    padding-top: 13px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.copy {
+    display: flex;
+    padding-top: 25px;
+    align-items: center;
+    font-size: 14px;
+    justify-content: space-between;
+}
